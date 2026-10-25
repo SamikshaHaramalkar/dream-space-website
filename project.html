@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dream Spaces - Interior Design Studio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="logo/logo.png" class="logo">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="project.html" class="nav-item nav-link active">Projects</a>
+                <!-- Services Dropdown -->
+                <div class="nav-item dropdown">
+                <a href="service.html"
+                    class="nav-link dropdown-toggle"
+                    id="servicesDropdown"
+                    role="button">Services
+                </a>
+                <div class="dropdown-menu">
+                    <a href="interior-design.html" class="dropdown-item">Interior Design</a>
+                    <a href="space-planning.html" class="dropdown-item">Space Planning</a>
+                    <a href="consultation.html" class="dropdown-item">Consultation</a>
+                    <a href="feng-shui.html" class="dropdown-item">Feng Shui Design</a>
+                    <a href="landscape.html" class="dropdown-item">Landscape Design</a>
+                    <a href="decorative.html" class="dropdown-item">Decorative Services</a>
+                    <a href="architecture.html" class="dropdown-item">Interior Architecture</a>
+                    <a href="soft-furnishings.html" class="dropdown-item">Soft Furnishings</a>
+                    <a href="lighting.html" class="dropdown-item">Lighting</a>
+                </div>
+            </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End --> 
+
+<!-- HERO SECTION START -->
+<section style="
+    background:#fbecd7;
+    padding:120px 20px;
+    position:relative;
+    overflow:hidden;
+">
+
+    <div style="
+        max-width:1200px;
+        margin:auto;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:50px;
+        flex-wrap:wrap;
+    ">
+
+        <!-- LEFT CONTENT -->
+        <div style="
+            flex:1;
+            min-width:300px;
+            animation:fadeUp 1.2s ease;
+        ">
+
+            <h5 style="
+                color:#f6a41c;
+                letter-spacing:3px;
+                margin-bottom:15px;
+                font-weight:600;
+            ">
+                OUR PROJECTS
+            </h5>
+
+            <h1 style="
+                color:#141214;
+                font-size:56px;
+                line-height:1.2;
+                font-weight:700;
+                margin-bottom:20px;
+            ">
+                Designing Spaces<br>
+                That Define Luxury
+            </h1>
+
+            <p style="
+                color:#555;
+                font-size:16px;
+                line-height:1.8;
+                max-width:500px;
+            ">
+                Explore our portfolio of thoughtfully designed interiors where aesthetics meets functionality and timeless elegance.
+            </p>
+
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div style="
+            flex:1;
+            min-width:300px;
+            position:relative;
+            animation:fadeRight 1.5s ease;
+        ">
+
+            <!-- GOLD BORDER -->
+            <div style="
+                position:absolute;
+                top:-20px;
+                left:-20px;
+                width:100%;
+                height:100%;
+                border:2px solid #f6a41c;
+                border-radius:20px;
+            "></div>
+
+            <!-- IMAGE -->
+            <img src="project/project-hero.png" alt="Interior Design" style="
+                width:100%;
+                height:420px;
+                object-fit:cover;
+                border-radius:20px;
+                position:relative;
+                z-index:2;
+                transition:0.5s;
+            ">
+
+        </div>
+
+    </div>
+
+</section>
+<!-- HERO SECTION END -->
+
+
+<!-- ANIMATION STYLE -->
+<style>
+@keyframes fadeUp {
+    from {
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to {
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes fadeRight {
+    from {
+        opacity:0;
+        transform:translateX(80px);
+    }
+    to {
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+</style>
+<!--Hero END-->
+
+<section style="
+    background:#fbecd7;
+    padding:120px 20px;
+    font-family: 'Segoe UI', sans-serif;
+">
+
+<div style="
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+">
+
+    <!-- LEFT IMAGE -->
+    <div style="
+        flex:1;
+        min-width:320px;
+        position:relative;
+    ">
+
+        <!-- GOLD FRAME -->
+        <div style="
+            position:absolute;
+            top:-30px;
+            left:-30px;
+            width:100%;
+            height:100%;
+            border:2px solid #f6a41c;
+        "></div>
+
+        <img src="project/p1.png" style="
+            width:100%;
+            height:450px;
+            object-fit:cover;
+            border-radius:10px;
+            position:relative;
+            z-index:2;
+        ">
+
+    </div>
+
+
+    <!-- RIGHT CONTENT -->
+    <div style="
+        flex:1;
+        min-width:320px;
+    ">
+
+        <h5 style="
+            color:#f6a41c;
+            letter-spacing:3px;
+            margin-bottom:15px;
+        ">
+            FEATURED PROJECT
+        </h5>
+
+        <h1 style="
+            color:#141214;
+            font-size:48px;
+            line-height:1.2;
+            margin-bottom:15px;
+        ">
+            Modern Luxury <br> Living Room
+        </h1>
+
+        <!-- SMALL LINE -->
+        <div style="
+            width:60px;
+            height:3px;
+            background:#f6a41c;
+            margin-bottom:20px;
+        "></div>
+
+        <p style="
+            color:#555;
+            line-height:1.8;
+            margin-bottom:30px;
+        ">
+            This project showcases a perfect blend of modern aesthetics and functional design.
+            Every element is carefully curated to create a luxurious yet comfortable living space.
+        </p>
+
+
+        <!-- ICON ROW -->
+        <div style="
+            display:flex;
+            gap:25px;
+            flex-wrap:wrap;
+            margin-bottom:30px;
+        ">
+
+            <div style="text-align:center;">
+                <div style="font-size:24px;">🪑</div>
+                <p style="margin:5px 0; font-size:14px;">Modern<br>Design</p>
+            </div>
+
+            <div style="text-align:center;">
+                <div style="font-size:24px;">📄</div>
+                <p style="margin:5px 0; font-size:14px;">Premium<br>Materials</p>
+            </div>
+
+            <div style="text-align:center;">
+                <div style="font-size:24px;">💡</div>
+                <p style="margin:5px 0; font-size:14px;">Lighting</p>
+            </div>
+
+            <div style="text-align:center;">
+                <div style="font-size:24px;">🍃</div>
+                <p style="margin:5px 0; font-size:14px;">Elegance</p>
+            </div>
+
+        </div>
+
+
+        <!-- BUTTON -->
+        <a href="#project-gallery" style="
+            display:inline-block;
+            padding:12px 28px;
+            background:#141214;
+            color:#f6a41c;
+            text-decoration:none;
+            border-radius:5px;
+            font-weight:600;
+            transition:0.3s;
+        "
+        onmouseover="this.style.background='#f6a41c'; this.style.color='#141214';"
+        onmouseout="this.style.background='#141214'; this.style.color='#f6a41c';"
+        >
+            VIEW PROJECT →
+        </a>
+
+    </div>
+
+</div>
+</section>
+<!--PROJECT FEATURED END-->
+
+<!-- PROJECT GALLERY START -->
+<section id="project-gallery" style="background:#fefefe; padding:100px 20px;">
+
+<div style="max-width:1200px; margin:auto;">
+
+    <!-- HEADING -->
+    <div style="text-align:center; margin-bottom:60px;">
+        <h5 style="color:#f6a41c; letter-spacing:3px;">OUR PROJECTS</h5>
+        <h2 style="font-size:42px; color:#141214; font-weight:700;">
+            Explore Our Work
+        </h2>
+    </div>
+
+    <!-- GRID -->
+    <div class="project-grid">
+
+        <!-- CARD 1 -->
+        <div class="project-card">
+            <a href="project/living room.avif" data-lightbox="projects" data-title="Living Room">
+                <img src="project/living room.avif" alt="">
+                <div class="overlay"><h4>Living Room</h4></div>
+            </a>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="project-card">
+            <a href="project/bedroom.avif" data-lightbox="projects" data-title="Bedroom">
+                <img src="project/bedroom.avif" alt="">
+                <div class="overlay"><h4>Bedroom</h4></div>
+            </a>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="project-card">
+            <a href="project/kitchen.jpg" data-lightbox="projects" data-title="Kitchen">
+                <img src="project/kitchen.jpg" alt="">
+                <div class="overlay"><h4>Kitchen</h4></div>
+            </a>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="project-card">
+            <a href="project/office.jpg" data-lightbox="projects" data-title="Office">
+                <img src="project/office.jpg" alt="">
+                <div class="overlay"><h4>Office</h4></div>
+            </a>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="project-card">
+            <a href="project/dining.avif" data-lightbox="projects" data-title="Dining">
+                <img src="project/dining.avif" alt="">
+                <div class="overlay"><h4>Dining</h4></div>
+            </a>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="project-card">
+            <a href="project/luxury.avif" data-lightbox="projects" data-title="Luxury">
+                <img src="project/luxury.avif" alt="">
+                <div class="overlay"><h4>Luxury</h4></div>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+</section>
+<!-- PROJECT GALLERY END -->
+
+<!-- Feature Start -->
+<div class="container-fluid py-5" style="background-color:#fffaf3;">
+    <div class="container">
+        <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+            <h1 class="mb-3">Why Choose <span class="text-uppercase text-primary bg-light px-2">Dream Spaces</span></h1>
+            <p class="text-muted">We deliver stylish, functional, and high-quality interiors tailored to your needs.</p>
+        </div>
+
+        <div class="row g-5 text-center">
+
+            <!-- Feature 1 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <i class="fa fa-couch fa-4x text-primary mb-4"></i>
+                <h4>Custom Designs</h4>
+                <p>Personalized interiors designed to match your lifestyle and vision.</p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <i class="fa fa-gem fa-4x text-primary mb-4"></i>
+                <h4>Premium Materials</h4>
+                <p>We use top-quality materials to ensure durability and elegance.</p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <i class="fa fa-users fa-4x text-primary mb-4"></i>
+                <h4>Expert Team</h4>
+                <p>Experienced designers and architects delivering creative solutions.</p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <i class="fa fa-clock fa-4x text-primary mb-4"></i>
+                <h4>On-Time Delivery</h4>
+                <p>We ensure timely completion of every project with perfection.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Feature End -->
+
+
+<!-- STYLE -->
+<style>
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Responsive */
+@media(max-width: 992px){
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 600px){
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* IMAGE */
+.project-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    transition: 0.5s;
+}
+
+/* OVERLAY */
+.project-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20,18,20,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+    z-index: 2;
+}
+
+/* TEXT FIX */
+.project-card .overlay h4 {
+    color: #ffffff !important;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* HOVER */
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+</style>
+
+<!-- CTA START -->
+<section style="
+    background:#fbecd7;
+    padding:140px 20px;
+    text-align:center;
+">
+
+    <div style="max-width:1000px; margin:auto;">
+
+        <!-- HUGE TEXT -->
+        <h1 style="
+            font-size:60px;
+            color:#141214;
+            font-weight:800;
+            line-height:1.2;
+            margin-bottom:20px;
+        ">
+            Start Your <span style="color:#f6a41c;">Dream Project</span>
+        </h1>
+
+        <!-- SUBTEXT -->
+        <p style="
+            font-size:18px;
+            color:#555;
+            max-width:600px;
+            margin:auto;
+            margin-bottom:40px;
+        ">
+            We create spaces that feel as good as they look.  
+            Let’s design something meaningful together.
+        </p>
+
+        <!-- LINE + BUTTON -->
+        <div style="
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:20px;
+        ">
+
+            <div style="
+                width:80px;
+                height:2px;
+                background:#141214;
+            "></div>
+
+            <a href="contact.html" style="
+                text-decoration:none;
+                font-weight:600;
+                color:#141214;
+                font-size:18px;
+                transition:0.3s;
+                position:relative;
+            "
+            onmouseover="this.style.color='#f6a41c'"
+            onmouseout="this.style.color='#141214'"
+            >
+                Start Now →
+            </a>
+
+            <div style="
+                width:80px;
+                height:2px;
+                background:#141214;
+            "></div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- CTA END -->
+
+<!-- Footer Start -->
+<div class="container-fluid footer py-5 px-5">
+    <div class="container py-5">
+        <div class="row g-5">
+
+            <!-- Logo + About -->
+            <div class="col-md-6 col-lg-3">
+                <img src="img/logo1.png" alt="Dream Spaces Logo" style="height:80px;">
+                
+                <p class="mt-3">
+                    Dream Spaces Interior Designs transforms your ideas into elegant and functional spaces. 
+                    We specialize in creating interiors that reflect your personality and lifestyle.
+                </p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-6 col-lg-3">
+                <h5 class="mb-4">Contact Us</h5>
+
+                <p><i class="fa fa-map-marker-alt me-2"></i>
+                    406/10, Lady Ratan Complex, Worli, Mumbai - 400018
+                </p>
+
+                <p><i class="fa fa-phone-alt me-2"></i>
+                    +91 9321603943
+                </p>
+
+                <p><i class="fa fa-envelope me-2"></i>
+                    md@dreamspaces.in
+                </p>
+
+                <div class="d-flex mt-3">
+                    <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Pages -->
+            <div class="col-md-6 col-lg-3">
+                <h5 class="mb-4">Pages</h5>
+
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="col-md-6 col-lg-3">
+                <h5 class="mb-4">Our Services</h5>
+
+                 <ul class="footer-links">
+                    <li><a href="interior-design.html">Interior Design</a></li>
+                    <li><a href="space-planning.html">Space Planning</a></li>
+                    <li><a href="consultation.html">Consultation</a></li>
+                    <li><a href="feng-shui.html">Feng Shui Design</a></li>
+                    <li><a href="landscape.html">Landscape Design</a></li>
+                    <li><a href="decorative.html">Decorative Services</a></li>
+                    <li><a href="architecture.html">Interior Architecture</a></li>
+                    <li><a href="soft-furnishings.html">Soft Furnishings</a></li>
+                    <li><a href="lighting.html">Lighting</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom text-center py-3">
+        <p class="mb-0">
+            © 2026 <b>Dream Spaces</b> | Designed with ❤ | All Rights Reserved
+        </p>
+    </div>
+
+</div>
+<!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#!" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+
+</html>  middle section krych ahe hero psn start kru okay inline css de theme nusar bnv
